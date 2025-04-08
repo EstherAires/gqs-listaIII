@@ -29,8 +29,10 @@ public class CalcularJurosCompostos{
 
         montante = jurosCompostos.calculo(capital, taxa, prazo);
 
-        System.out.printf("O montante final após %d meses será: %.2f%n", prazo, montante);
-    
+        System.out.println("-------------------------------------------------");
+
+        System.out.printf("\nO montante final após %d meses será: %.2f%n", prazo, montante);
+        System.out.println("\n\n");
         sc.close();
     }
 }
