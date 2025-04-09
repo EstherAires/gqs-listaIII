@@ -35,5 +35,7 @@ public class CalcularSalarioBruto {
         System.out.println("-------------------------------------------------");
         System.out.printf("\nO salário bruto é: %.2f%n", salarioBruto);
         System.out.println("\n\n");
+
+        sc.close();
     }
 }
