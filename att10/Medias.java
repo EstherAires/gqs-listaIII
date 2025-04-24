@@ -5,6 +5,7 @@ public class Medias {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
         System.out.print("Digite o primeiro valor: ");
         double a = scanner.nextDouble();
 
@@ -16,7 +17,7 @@ public class Medias {
 
         double mediaAritmetica = (a + b + c) / 3;
         double mediaHarmonica = 3 / ((1 / a) + (1 / b) + (1 / c));
-        double mediaGeometrica = Math.cbrt(a * b * c); // raiz cúbica
+        double mediaGeometrica = Math.cbrt(a * b * c);
 
         System.out.printf("Média Aritmética: %.2f%n", mediaAritmetica);
         System.out.printf("Média Harmônica: %.2f%n", mediaHarmonica);
@@ -25,6 +26,3 @@ public class Medias {
         scanner.close();
     }
 }
-
-
-

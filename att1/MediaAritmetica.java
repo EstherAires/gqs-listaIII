@@ -8,7 +8,7 @@ class Calculadora{
     }
 }
 
-public class Att1MediaAritmetica {
+public class MediaAritmetica {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculadora calculadora = new Calculadora();
